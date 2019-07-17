@@ -392,7 +392,7 @@ height: 300px;
   .wnsimage {
     width: 45vw;
   }
-}
+
 .polaroidsection {
   height: 800px;
   display: flex;
@@ -406,7 +406,7 @@ height: 300px;
 .button2.more h3 {
   font-size: 22px;
 }
-
+}
 @media screen and (max-width: 600px) {
  header {
    width: 100%;
@@ -462,7 +462,7 @@ p {
     .wnsimage {
       width: 45vw;
     }
-  }
+  
   .polaroidsection {
     height: 800px;
     display: flex;
@@ -485,3 +485,4 @@ p {
   section {
     background-image: none;
   }
+}
