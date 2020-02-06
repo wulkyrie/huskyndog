@@ -138,11 +138,12 @@ header {
 /*********************** SECTION ***********************/
 
 section {
-  /* background-image: url("frenchy.jpg"); */
-   background-repeat: no-repeat;
-   background-position: right top;
    width: 100%;
    margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Intro {
@@ -191,6 +192,9 @@ margin-top: 70px;
   margin-top: 100px;
   display: flex;
   flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .polaroidbox{
 
