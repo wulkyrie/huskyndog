@@ -51,7 +51,7 @@ body {
 
 .button2 {
   background: #3498db;
-  width: 250px;
+  width: 350px;
   height: 75px;
   padding: 4px 0;
   cursor: pointer;
@@ -138,7 +138,7 @@ header {
 /*********************** SECTION ***********************/
 
 section {
-  background-image: url("frenchy.jpg");
+  /* background-image: url("frenchy.jpg"); */
    background-repeat: no-repeat;
    background-position: right top;
    width: 100%;
