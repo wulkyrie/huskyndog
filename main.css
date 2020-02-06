@@ -56,7 +56,7 @@ body {
   padding: 4px 0;
   cursor: pointer;
   color: white;
-  margin-top: 400px;
+  margin-top: 200px;
   margin-left: 200px;
   box-shadow: 10px 10px 5px #aaaaaa;
 
@@ -106,10 +106,10 @@ header {
 .content {
   height: 175px;
   width: 60%;
-   border: 10px solid rgb(166, 232, 224) ;
+   /* border: 10px solid rgb(166, 232, 224) ; */
    display: flex;
    margin-top: 350px;
-   box-shadow: 3px 7px 12px 4px #999999;
+   /*box-shadow: 3px 7px 12px 4px #999999; */
    /* background-color: white; */
 }
 
@@ -150,7 +150,7 @@ section {
   margin-left: 20px;
   height: 570px;
   width: 70%;
-   border: 10px solid rgb(166, 232, 224) ;
+   /* border: 10px solid rgb(166, 232, 224) ; */
    display: flex;
    flex-flow: row wrap;
 
@@ -188,6 +188,7 @@ margin-top: 70px;
   margin-top: 230px;
 }
 .polaroidsection{
+  margin-top: 100px;
   display: flex;
   flex-flow: row;
 }
