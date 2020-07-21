@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
+
+
 h3 {
   margin-left: 30px;
   margin-bottom: 0px;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 h4{
   font-family: 'Allura';font-size: 42px;
@@ -17,9 +19,7 @@ h5 {
   margin-top: 10px;
 }
 
-h6 {
-  margin-top: 0px;
-  font-size: 0.9vw;
+
 }
 h7 {
 
@@ -29,11 +29,14 @@ h7 {
 
 
 
-p{
-  margin-top: 70px;
-
+h1{
+  margin-top: 10px;
 }
 
+h2{
+  font-size: 15px;
+  font-weight: 500;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
@@ -41,28 +44,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   flex-flow: column nowrap;
-  margin: 0;
   background-image: url("staffy.jpeg");
    background-repeat: no-repeat;
    background-position: left bottom;
+  text-align: center;
+}
+
+.content {
+  border-bottom: groove 7px rgba(149, 24, 27, 0.54);
+
 }
 /*********************** BUTTON ***********************/
 
 .button2 {
   background: #3498db;
-  width: 350px;
+  width: 250px;
   height: 75px;
   padding: 4px 0;
   cursor: pointer;
   color: white;
-  margin-top: 200px;
-  margin-left: 200px;
   box-shadow: 10px 10px 5px #aaaaaa;
-
-
-
-  transform: translateX(-50%) translateY(-50%);
   border-radius: 3px;
 
   p {
@@ -99,34 +102,34 @@ header {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  background-image: url("halfhead.jpeg");
-   background-repeat: no-repeat;
-   background-position: center top;
+
 }
 .content {
-  height: 175px;
-  width: 60%;
+  height: auto;
+  width: 100%;
    /* border: 10px solid rgb(166, 232, 224) ; */
    display: flex;
-   margin-top: 350px;
+   flex-direction: column;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
    /*box-shadow: 3px 7px 12px 4px #999999; */
    /* background-color: white; */
 }
 
 .leftheader {
-  width: 42%;
-  font-weight: 700;
-  font-size: 7.5vw;
+  width: auto;
+  font-weight: 500;
+  font-size: 20px;
   color: rgb(198, 74, 127);
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-delay: 2s;
 }
 
 .rightheader {
-  width: 55%;
-  display: flex;
-  flex-flow: row wrap;
+  width: 80%;
   color: black;
+  text-align: center;
 
 }
 
@@ -138,22 +141,20 @@ header {
 /*********************** SECTION ***********************/
 
 section {
-   width: 100%;
-   margin-top: 190px;
+   width: 90%;
+   margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  flex-direction: column;
 }
 
 .Intro {
-  margin-top: -160px;
-  margin-left: 20px;
-  height: 570px;
-  width: 70%;
+  height: auto;
+  width: 80%;
    /* border: 10px solid rgb(166, 232, 224) ; */
    display: flex;
-   flex-flow: row wrap;
+   flex-direction: column;
 
    /* background-color: white; */
 }
@@ -184,12 +185,8 @@ margin-top: 70px;
 /************************ BODY ************************/
 
 
-.video {
-  margin-left: 30px;
-  margin-top: 230px;
-}
+
 .polaroidsection{
-  margin-top: 100px;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -200,7 +197,7 @@ margin-top: 70px;
 
   margin-top: 70px;
   margin-left: 50px;
-  height: 500px;
+  height: auto;
 
 }
 div.polaroid {
@@ -231,25 +228,14 @@ height: 600px;
 }
 
 .images {
-  width: 60%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   filter: grayscale(100%);
-     padding-top: 100px;
+     padding-top: 50px;
 }
 
-.images2 {
-    display: flex;
-    margin-top: 30px;
-    margin-left: 20px;
-     filter: blur(1px);
-     -webkit-filter: contrast(4);
- filter: contrast(4);
-}
 
-.image2 {
-  left: -50px;
-}
 .dogbits{
   width: 90%;
   display: flex;
@@ -302,26 +288,8 @@ height: 600px;
       box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-/* .button2 {
-  margin-top: -300px;
-  width: 260px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  cursor: pointer;
-  background-color: rgb(231, 239, 241);
-  border: 1px solid white;
-    border-radius: 15px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 200px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
 
-.button2:hover {
-  background-color: rgb(231, 259, 291);
-} */
+
 .puplist {
   -webkit-appearance: button;
  -webkit-border-radius: 2px;
@@ -371,35 +339,15 @@ footer {
   .content {
 height: 300px;
   }
-  h6 {
-    font-size: 1.45vw;
 
-  }
-  h5 {
-    font-size: 40px;
-  }
-
-  .Intro h3 {
-    font-size: 3vw;
-    text-shadow: 0px 0px 4px white;
-
-
-  }
   .Intro {
-    height: 1200px;
-    width: 500px;
+    height: auto;
+    width: 90%;
 
-  }
-  h7 {
-    font-size: 15px;
-    text-shadow: 0px 0px 4px white;
-  }
-  .wnsimage {
-    width: 45vw;
   }
 
 .polaroidsection {
-  height: 800px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -413,9 +361,7 @@ height: 300px;
 }
 }
 @media screen and (max-width: 600px) {
- header {
-   width: 100%;
- }
+
     .content {
   height: 300px;
   width: 400px;
@@ -427,38 +373,11 @@ height: 300px;
       height: 90px;
     }
     .rightheader {
-      width: 300px;
-
-    }
-p {
-  margin-top: 1px;
-  font-size: 90px;
-
-}
-
-    h6 {
-      font-size: 2vw;
-
-    }
-    h5 {
-      font-size: 33px;
-    }
-
-    .Intro h3 {
-      font-size: 3vw;
-      text-shadow: 0px 0px 4px white;
-
-
-    }
-    .Intro {
-      height: 1200px;
       width: 90%;
 
     }
-    h7 {
-      font-size: 15px;
-      text-shadow: 0px 0px 4px white;
-    }
+
+
     .wolfnstray {
       display: flex;
       flex-direction: column;
@@ -467,27 +386,31 @@ p {
     .wnsimage {
       width: 45vw;
     }
-  
+
   .polaroidsection {
-    height: 800px;
+    height: auto;
     display: flex;
-    flex-direction: column;
-
-
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
   }
-/*   .button2.more {
-    margin-top: -200px;
-    margin-right: -400px;
-  } */
+  .polaroidbox {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  div.polaroid {
+    width: 220px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  div.polaroid.rotate_right{
+    margin-left: -100px;
+  }
+
   .button2.more h3 {
     font-size: 22px;
   }
-
-  .video {display: none;}
-
-  .dogbits {display: none;}
-
-  section {
-    background-image: none;
-  }
-}
