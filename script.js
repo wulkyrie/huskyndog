@@ -36,11 +36,11 @@ function polinitialize() {
 
 };
 function createHuskyimage(data) {
-    var pol_left = $(`<div class='pol_left'><img src='${data.message}'  width="200" /> </div>`);
+    var pol_left = $(`<div class='pol_left'><img src='${data.message}'  width="260" /> </div>`);
     $(".polaroid_left").html(pol_left);
 };
 function createPugimage(data) {
-    var pol_right = $(`<div class='pol_right'><img src='${data.message}'  width="200" /> </div>`);
+    var pol_right = $(`<div class='pol_right'><img src='${data.message}'  width="260" /> </div>`);
     $(".polaroid_right").html(pol_right);
 };
 polinitialize();
