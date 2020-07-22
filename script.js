@@ -126,7 +126,7 @@ $(".more").on("click", function(){
   };
 
 function createImages(data) {
-    var image = $(`<div class='image'><img src='${data.message}' height="400px" /> </div>`);
+    var image = $(`<div class='image'><img src='${data.message}' width="100%" /> </div>`);
     var image2 = $(`<div class='image'><img src='${data.message}' height="250px" /> </div>`);
     $(".images").html(image);
     $(".images2").html(image2);
