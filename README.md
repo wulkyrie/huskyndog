@@ -1,2 +1,1 @@
-# pup_pic_generator
-dig202a
+# bc we love dogs
